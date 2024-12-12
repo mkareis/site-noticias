@@ -45,7 +45,7 @@ a:hover{
     color: var(--brand-color-light);
 }
 
-h1, h2, h3{
+h1, h2, h3{ 
     font: inherit;
 } 
 
@@ -57,9 +57,10 @@ h1, h2, h3{
     grid-auto-flow: column;
 }
 
+
 .container{
     max-width: 1280px;
-    padding-inline: 32px;;
     margin-inline: auto;
-
+    padding-inline: 32px;
 }
+
