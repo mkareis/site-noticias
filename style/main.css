@@ -1,0 +1,14 @@
+#middle-container{
+    display: grid;
+    grid-auto-flow: column;
+    height: 416px;
+    gap: 16px;
+    
+
+}
+
+.middle-right{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 200px);
+}
+
